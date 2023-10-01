@@ -8,7 +8,7 @@ export default async function Home() {
   const { userId } = await auth()
   const isAuth = !!userId
   return (
-    <div className="w-screen min-h-screen bg-gradient-to-b from-sky-400 to-sky-200">
+    <div className="w-screen min-h-screen  bg-gradient-to-bl from-yellow-200 via-emerald-200 to-yellow-200">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center">
